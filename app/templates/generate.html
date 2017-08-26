@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title>QuizzFeed - a random BuzzFeed quiz generator</title>
+
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+
+<body>
+<div class="main">
+	<div class="content">
+		<h1 class="title"><a href="../">QuizzFeed</a></h1>
+		<h2 class="subtitle">a random BuzzFeed quiz generator</h2>
+		<div class="quizz--title">
+			<h2><a href="http://www.buzzfeed.com{{quizz.link}}" target="_blank">{{ quizz.title }} &rarr;</a></h2>
+		</div>
+		<h3 class="quizz--subtitle">{{ quizz.subtitle }}</h3>
+		<a href="/generate">
+			<button type="button">another one</button>
+		</a>
+	</div>
+
+</div>
+
+<div class="copyright">made with &hearts; by <a href="http://olinastath.com/" target="_blank">Olina Stathopoulou</a></div>
+</body>
+
+
+</html>

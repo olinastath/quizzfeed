@@ -1,0 +1,35 @@
+<html>
+<head>
+	<link rel="shortcut icon" href="../static/images/icon.ico">
+	<link rel="apple-touch-icon" href="../static/images/icon.ico">
+
+	<title>QuizzFeed - a random BuzzFeed quiz generator</title>
+
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+
+
+<body>
+<div class="main">
+	<div class="content">
+	<h1 class="title">QuizzFeed</h1>
+	<h2 class="subtitle">a random BuzzFeed quiz generator</h2>
+	<a href="/generate">
+		<button type="button" onclick="generate();">generate</button>
+	</a>
+	</div>
+
+</div>
+
+<div class="copyright">made with &hearts; by <a href="http://olinastath.com/" target="_blank">Olina Stathopoulou</a></div>
+</body>
+
+<script type="text/javascript">
+	function generate() {
+		console.log("ok");
+	}
+
+</script>
+
+</html>
