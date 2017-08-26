@@ -5,18 +5,18 @@ This is the first web application I have built entirely on my own. It scrapes Bu
 
 ### Prerequisites
 
-##### In root directory, run 'pip install -r requirements.txt'
+##### In root directory, run `pip install -r requirements.txt`
 
-* Scrappy 1.4.0 ('pip install scrapy')
-* DjangoItem 1.1.1 ('pip install scrapy-djangoitem')
+* Scrappy 1.4.0 (`pip install scrapy`)
+* DjangoItem 1.1.1 (`pip install scrapy-djangoitem`)
 * Django 1.8.7
 
 ### Running the project
 
 I'm currently working on deploying it on heroku, but until then, here's how to run the program locally:
-1. run 'python manage.py makemigrations' in the root directory
-2. run 'python manage.py migrate' in the root directory
-3. cd into the quizz_scraper directory and run 'scrapy crawl quizz_spider'
+1. run `python manage.py makemigrations` in the root directory
+2. run `python manage.py migrate` in the root directory
+3. cd into the quizz_scraper directory and run `scrapy crawl quizz_spider`
 4. back in the root directory, run python manage.py runserver (points to localhost:8000)
 
 The project is up and running at http://localhost:8000!
