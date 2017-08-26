@@ -5,7 +5,7 @@ This is the first web application I have built entirely on my own. It scrapes Bu
 
 ### Prerequisites
 
-####In root directory, run pip install -r requirements.txt
+##### In root directory, run pip install -r requirements.txt
 
 * Scrappy 1.4.0 (pip install scrapy)
 * DjangoItem 1.1.1 (pip install scrapy-djangoitem)
@@ -21,7 +21,7 @@ I'm currently working on deploying it on heroku, but until then, here's how to r
 
 The project is up and running at http://localhost:8000!
 
-###Project Structure
+### Project Structure
 
 * app/ - contains django web app
 	* static/ - contains css stylesheets and images
