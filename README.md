@@ -29,3 +29,5 @@ The project is up and running at http://localhost:8000!
 * quizz_scraper/quizz_scraper - contains scraper 
 	* spiders - contains scraping script
 * requirements.txt - contains reqs to run project
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y225QO7)
